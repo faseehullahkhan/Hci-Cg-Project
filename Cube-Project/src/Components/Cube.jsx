@@ -44,12 +44,12 @@ export default function ThreeScene() {
 
     // Replace with your own images for each cube face
     const faceImages = [
-      "./public/red-cube.jpeg",
-      "./public/red-cube.jpeg",
-      "./public/red-cube.jpeg",
-      "./public/red-cube.jpeg",
-      "./public/red-cube.jpeg",
-      "./public/red-cube.jpeg",
+      "/red-cube.jpeg",
+      "/red-cube.jpeg",
+      "/red-cube.jpeg",
+      "/red-cube.jpeg",
+      "/red-cube.jpeg",
+      "/red-cube.jpeg",
     ];
 
     const positions = [
@@ -179,7 +179,7 @@ export default function ThreeScene() {
       ref={mountRef}
       className="w-full h-screen"
       style={{
-        backgroundImage: "url('./public/dark-red.jpg')",
+        backgroundImage: "url('/dark-red.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
